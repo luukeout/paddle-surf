@@ -18,6 +18,10 @@ nav {
 	display: inline-block;
 }
 
+p {
+	color: #5e686f;
+}
+
 .container {
 	width: 960px;
 	margin: 0 auto;
@@ -36,19 +40,19 @@ nav {
 .company-name {
 	display: inline-block;
 	padding-top: 	26px;
+	color: #083452;
 }
 
 .top-nav {
 	font-family: 'Oswald' serif;
 	font-size: 18px;
 	font-weight: lighter;
+	color: #083452;
 	display: inline-block;
 	list-style: none;
 	position: absolute;
 	right: 0;
-	margin: 26px 0 0 0
-
-	
+	margin: 26px 0 0 0;
 }
 
 .about {
@@ -66,7 +70,6 @@ nav {
 	padding-top: 172px;
 	width: 960px;
 	margin: 0 auto;
-	
 }
 
 .main-company-name {
@@ -85,7 +88,7 @@ nav {
 	text-align: center;
 	font-size: 14px;
 	letter-spacing: 2px;
-	
+	color: #083452;
 }
 
 .container-3 {
@@ -96,23 +99,25 @@ nav {
 .main-body {
 	display: inline-block;
 	font-size: 24px;
-	font-style: bold;
-	/*background: yellow;*/
 	width: 65%;
 	height: 1000px;
 }
 
 .fantastic {
 	font-weight: bolder;
+	color: #083452;
 }
 
 .indent {
 	padding-left: 25px;
 }
 
+h2 {
+	color: #106db3;
+}
+
 .r-side-body {
 	display: inline-block;
-	/*background: green;*/
 	width: 34%;
 	height: 1000px;
 }
@@ -126,15 +131,23 @@ nav {
 	padding-top: 70px;
 	text-align: center;
 }
-
+	
 .side-body-3 {
 	text-align: left;
 	padding-top: 60px;
 	margin-left: 23px;
 }
 
+h3 {
+	color: #106db3;
+}
+
+.side-bar-text p {
+	color: #a3b3bf; 
+}
+
 .below-body {
-	border-top 1px #5e686f;
+	border-top: 1px #5e686f;
 	width: 100%;
 	height: 169px;
 }
@@ -160,7 +173,6 @@ nav {
 	height: 330px;
 	display: inline-block;
 	background: #d3d3d3;
-	
 }
 
 .footer-3 {
@@ -187,3 +199,5 @@ nav {
 
  
 
+	
+	
