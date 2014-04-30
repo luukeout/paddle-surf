@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
 	display: inline-block;
+	font: bolder;
 }
 
 p {
@@ -41,18 +42,20 @@ p {
 	display: inline-block;
 	padding-top: 	26px;
 	color: #083452;
+	font-family: 'Asap';
+	margin-left: 29px;
+
 }
 
 .top-nav {
 	font-family: 'Oswald' serif;
 	font-size: 18px;
-	font-weight: lighter;
 	color: #083452;
 	display: inline-block;
 	list-style: none;
 	position: absolute;
 	right: 0;
-	margin: 26px 0 0 0;
+	margin: 26px 20px 0 0;
 }
 
 .about {
@@ -67,7 +70,7 @@ p {
 }
 
 .container-2 {
-	padding-top: 172px;
+	padding-top: 176px;
 	width: 960px;
 	margin: 0 auto;
 }
@@ -89,6 +92,9 @@ p {
 	font-size: 14px;
 	letter-spacing: 2px;
 	color: #083452;
+	font-family: 'Asap';
+	font-weight: bolder;
+	margin-top: 4px;
 }
 
 .container-3 {
@@ -112,7 +118,7 @@ p {
 	padding-left: 25px;
 }
 
-h2 {
+blockquote {
 	color: #106db3;
 }
 
