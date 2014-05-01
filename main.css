@@ -153,12 +153,25 @@ p {
 
 .main-body p {
 	line-height: 26px;
+	margin-bottom: 26px;
+}
+
+.quote {
+	border-left: 2px solid #d3d3d3;
+	padding-left: 10px;
+	margin: -6px 0px 0px 10px;
+	height: 51px;
+	padding-top: 5px;
 }
 
 blockquote {
 	color: #106db3;
-	font-size: 20px;
-}
+	font-size: 28px;
+	font-weight: lighter;
+	font-family: 'Asap';
+	margin: 12px 0px 0px 8px;
+} 
+	
 
 .r-side-body {
 	position: relative;
