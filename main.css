@@ -118,16 +118,46 @@ p {
 	font-size: 31px;
 	padding-top: 20px;
 	line-height: 70px;
-	margin-bottom: 67px;
+	margin-bottom: -29px;
+	display: inline-block;
 }
 
-.1st-paragraph {
-	padding-top: 0;
-	margin-top: 15px;
+.fantastic img {	
+    width: 22px;  
+    height: 22px;
+}
+
+.fantastic h1 {
+	margin-bottom: 7px;
+}
+
+.author-info {
+	font-family: 'Asap';
+	font-size: 13px;
+	color: #106db3;
+	display: inline-block;
+	line-height: 28px;
+}
+
+.article-date {
+	display: inline-block;
+	color: #a3b3bf;
+	font-size: 13px;
+	font-family: 'Asap';
+	line-height: 29px;
+}
+
+.article-date span {
+	text-decoration: underline;
+}
+
+.main-body p {
+	line-height: 26px;
 }
 
 blockquote {
 	color: #106db3;
+	font-size: 20px;
 }
 
 .r-side-body {
