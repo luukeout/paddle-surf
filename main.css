@@ -30,9 +30,6 @@ p {
 	position: relative;
 }
 
-.1st-paragraph {
-	padding-top: 10px;
-}
 
 .header	{
 	width: 100%;
@@ -114,8 +111,6 @@ p {
 	height: 1000px;
 }
 
-p{}
-
 .fantastic {
 	font-weight: bolder;
 	color: #083452;
@@ -123,6 +118,12 @@ p{}
 	font-size: 31px;
 	padding-top: 20px;
 	line-height: 70px;
+	margin-bottom: 67px;
+}
+
+.1st-paragraph {
+	padding-top: 0;
+	margin-top: 15px;
 }
 
 blockquote {
