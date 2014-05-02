@@ -159,7 +159,7 @@ p {
 .quote {
 	border-left: 2px solid #d3d3d3;
 	padding-left: 10px;
-	margin: -6px 0px 0px 10px;
+	margin: -6px 0px 28px 10px;
 	height: 51px;
 	padding-top: 5px;
 }
@@ -223,16 +223,23 @@ blockquote {
 	
 .side-body-3 {
 	text-align: left;
-	padding-top: 60px;
-	margin-left: 23px;
+	padding-top: 27px;
+	margin-left: 47px;
 }
 
 h3 {
 	color: #106db3;
+	font-size: 18px;
+	margin-bottom: 3px;
 }
 
 .side-bar-text p {
-	color: #a3b3bf; 
+	color: #a3b3bf;
+	font-size: 14px;
+	font-weight: lighter;
+	font-family: 'Asap';
+	line-height: 24px; 
+	margin-top: 0px;
 }
 
 .below-body {
