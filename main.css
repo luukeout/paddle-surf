@@ -243,52 +243,77 @@ h3 {
 }
 
 .below-body {
-	border-top: 1px #5e686f;
+	border-top: 1px solid #d3d3d3;
 	width: 100%;
-	height: 169px;
+	height: 146px;
+	text-align: center;
+	font-family: 'Oswald';
+	font-size: 62px;
+	font-weight: bold;
+	color: #083452;
+}
+
+.below-body span {
+	display: block;
+	padding-top: 24px;
 }
 
 .container-4 {
-	display: inline-block;
+	/*display: inline-block;*/
 	width: 100%;
-	height: 427px;
+	height: 440px;
 	position: relative;
+	/*border: 1px. solid black;*/
 }
 
 .footer-1 {
 	float: left;
-	position: absolute;
+	/*position: absolute;*/
 	width: 25%;
 	height: 330px;
-	background: #106db3;
+	background-image: url(http://voiceofsandiego.org/wp-content/uploads/6f4af864-56c6-5ac0-8966-91b35602f9ee.image.jpg);
+	font-family: 'Oswald';
+	font-size: 28px;
+	text-align: bottom;
+	color: white;
 }
+
+/*.footer-1:hover {
+	background-color: #106db3;
+}
+
+.hover-color {
+	opacity: 0;
+}*/ 
 
 .footer-2 {
 	float: left;
 	width: 25%;
 	height: 330px;
-	display: inline-block;
-	background: #d3d3d3;
+	background-image: url(http://blogs.citypages.com/food/beer.flight%20400x300.jpg);
+	
 }
 
 .footer-3 {
 	float: left;
 	width: 25%;
 	height: 330px;
-	background: #106db3;
+	background-image: url(http://images.contactmusic.com/newsimages/zach_galifianakis_627199.jpg);
 }
 
 .footer-4 {
 	float: left;
 	width: 25%;
 	height: 330px;
-	background: #106db3;
+	background-image: url(http://loriannryan.zenfolio.com/img/s3/v40/p334229174-3.jpg);
 }
 
 .footer-nav {
 	width: 100%;
 	height: 97px;
 	background: #083452;
+	display: inline-block;
+	vertical-align: bottom;
 }
 
 
