@@ -37,7 +37,11 @@ p {
 	background: #106db3;
 	background-size: 100% 523px;
 	background-image: url(http://bgfons.com/upload/waves_texture2418.jpg);
-	box-shadow: inset 0px 0px 0 2000px rgba(17,117,192,0.8 );
+}
+
+.overlay {
+	background: rgba(16, 109, 179, 0.72);
+	height: 523px;
 }
 
 .company-name {
@@ -258,10 +262,19 @@ h3 {
 	padding-top: 24px;
 }
 
+/*.buttons {
+	width: 462px;
+	height: 32px;
+	font-family: 'Asap';
+	font-size: 12px;
+	color: white;
+	display: inline-block;
+}*/
+
 .container-4 {
 	/*display: inline-block;*/
 	width: 100%;
-	height: 440px;
+	height: 427px;
 	position: relative;
 	/*border: 1px. solid black;*/
 }
@@ -273,25 +286,28 @@ h3 {
 	background-image: url(http://voiceofsandiego.org/wp-content/uploads/6f4af864-56c6-5ac0-8966-91b35602f9ee.image.jpg);
 	font-family: 'Oswald';
 	font-size: 28px;
-	color: white;
-	/*text-align: bottom;*/
+	color: #083452;
+}
+
+.footer-overlay {
+	float: left;
+	width: 100%;
+	height: 330px;
+	background: rgba(16, 109, 179, 0.72);
 }
 
 .footer-1 span {
-	position: absolute;
 	bottom: 15px;
 	margin-left: 19px;
 	margin-right: 20px;
 	margin-bottom: 104px;
+	position: absolute;
 }
 
-/*.footer-1:hover {
-	background-color: #106db3;
+.footer-overlay:hover {
+	color: #fff;
+	background: rgba(16, 109, 179, 0.0);
 }
-
-.hover-color {
-	opacity: 0;
-}*/ 
 
 .footer-2 {
 	float: left;
@@ -300,7 +316,7 @@ h3 {
 	background-image: url(http://blogs.citypages.com/food/beer.flight%20400x300.jpg);
 	font-family: 'Oswald';
 	font-size: 28px;
-	color: white;
+	color: #083452;
 }
 
 .footer-2 span {
@@ -318,14 +334,17 @@ h3 {
 	background-image: url(http://images.contactmusic.com/newsimages/zach_galifianakis_627199.jpg);
 	font-family: 'Oswald';
 	font-size: 28px;
-	color: white;
+	color: #083452;
+	position: relative;
 }
 
 .footer-3 span {
 	position: absolute;
-	bottom: 119px;
+	bottom: 114px;
 	margin-left: 19px;
 	margin-right: 20px;
+	position: absolute;
+	bottom: 22px;
 }
 
 .footer-4 {
@@ -335,7 +354,7 @@ h3 {
 	background-image: url(http://loriannryan.zenfolio.com/img/s3/v40/p334229174-3.jpg);
 	font-family: 'Oswald';
 	font-size: 28px;
-	color: white;
+	color: #083452;
 }
 
 .footer-4 span {
@@ -352,13 +371,19 @@ h3 {
 	vertical-align: bottom;
 }
 
+.tiy {
+	display: inline-block;
+	padding-top: 27px;
+	margin-left: 166px;
+}
+
 .footer-nav span {
 	font-family: 'Asap';
 	font-size: 14px;
 	color: #a3b3bf;
 	display: inline-block;
 	padding-top: 40px;
-	margin-left: 222px;
+	margin-left: 8px;
 }
 
 .footer-nav li {
